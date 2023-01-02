@@ -3,10 +3,13 @@
     padding: 0;
 }
 body{
+    font-weight: bold;
     width: 100%;
+    font-size: 1.15rem;
+
 }
 .container{
-    width: 90%;
+    width: 80%;
     margin: 2rem auto;
 }
 header{
@@ -26,4 +29,27 @@ a{
     text-align: center;
     font-weight: bold;
     border-radius: 0.25rem;
+}
+section{
+    background-image: url(./b7454c6e5a984782b677993f161bc720-20220822_234811.jpg);
+    height: 400px;
+}
+img{
+    border-radius: 0.25rem;
+    min-height: 300px;
+}
+.conferans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.conferanss{
+    width: 40%;
+}
+.conferansss{
+    width: 50%;
+}
+ins{
+    text-decoration: none;
+    color: red;
 }
