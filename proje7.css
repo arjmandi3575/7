@@ -6,7 +6,7 @@ body{
     margin-top: 2rem;
 }
 .container{
-    display: flex
+    display: flex;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
@@ -36,24 +36,39 @@ header a{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;*
+    justify-content: space-between;
 }
-.containerr b {
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-b{
+.conferanss {
     margin-top: 2rem;
+    width: 52%;
+    line-height: 1.8rem;
 }
-.containerr ins{
+.conferanss b {
+    font-size: 1rem;
+}
+.conferanss ins{
     color: red;
     font-weight: bold;
     text-decoration: none;
 }
-.conferanss{
-    width: 52%;
+.conferanss h5{
+
+}
+.conferanss img{
+
 }
 .conferansss{
+    margin-top: 2rem;
     width: 40%;
+    line-height: 1.8rem;
+
+}
+.tik{
+}
+.tik svg{
+    color: darkgreen;
+
+}
+.tik h5{
+
 }
