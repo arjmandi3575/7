@@ -64,11 +64,14 @@ header a{
 
 }
 .tik{
+    display: flex;
+    flex-direction: row;
+justify-content: start;
 }
 .tik svg{
-    color: darkgreen;
-
+    width: 20%;
+    color: rgb(34, 197, 94);
 }
 .tik h5{
-
+width: 80%;
 }
