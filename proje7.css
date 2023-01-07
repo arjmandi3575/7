@@ -1,14 +1,30 @@
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
     margin-top: 2rem;
+        font-family: 'iranyekan_numbers','iranyekan';
+
 }
 .container{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 header{
@@ -28,11 +44,35 @@ header a{
     text-decoration: none;
     border-radius: 0.25rem;
 }
+section{
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 0.55rem;
+    background-image: linear-gradient(to bottom, rgba(14, 165, 233, 0.80), rgba(0, 0, 0, 0.60)), url('b7454c6e5a984782b677993f161bc720-20220822_234811.jpg');    width: 100%;
+    height: 70vh;
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+text-shadow: 2px 2px 2px rgb(0 0 0 / 40%);
+}
+section .yek{
+color: white;
+margin-top: 2rem;
+font-size: 2rem;
+}
+section .do{
+    font-size: 3rem;
+color: yellow;
+}
+section .se{
+    font-size: 2rem;
+color: white;
+}
 .conferans{
     background-color: #f5f5f55d;
 }
 .containerr{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -40,8 +80,8 @@ header a{
 }
 .conferanss {
     margin-top: 2rem;
-    width: 52%;
-    line-height: 1.8rem;
+    width: 35%;
+    line-height: 1.9rem;
 }
 .conferanss b {
     font-size: 1rem;
@@ -51,16 +91,17 @@ header a{
     font-weight: bold;
     text-decoration: none;
 }
-.conferanss h5{
 
-}
 .conferanss img{
-
+width: 100%;
+}
+.image{
+    margin-top: 2rem;
 }
 .conferansss{
     margin-top: 2rem;
-    width: 40%;
-    line-height: 1.8rem;
+    width: 65%;
+    line-height: 4rem;
 
 }
 .tik{
@@ -71,7 +112,119 @@ justify-content: start;
 .tik svg{
     width: 20px;
     color: rgb(34, 197, 94);
+    padding: 1.5rem;
 }
 .tik h5{
-width: calc(100%-20px);
+    font-weight: normal;
+    font-size: 1.2rem;
+width: calc(100% - 20px);
+}
+.komite{
+    background-color: #f5f5f55d;
+
+
+}
+.containerrr{
+    width: 85%;
+    margin: 0 auto;
+    line-height: 3rem;
+}
+.img{
+    height: auto;
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  background-image: linear-gradient(to bottom, rgba(0, 19, 27, 0.8), rgba(0, 0, 0, 0.60)), url('https://reyhanehghanei.github.io/poroje4/f8fa33dcc7aa4bff8e09b3a8bfa47556-20220822_234734.webp');    width: 100%; 
+}
+.con{
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+}
+.con h1{
+  padding: 2rem;
+font-size: 1.5rem;
+}
+.imgg{
+display: flex;
+flex-direction: row;
+}
+.imgg svg{
+width: 2rem;
+height: 2rem;
+padding: 1rem;
+}
+.imgg ins{
+    font-size: 1.5rem;
+text-decoration: none;
+margin-bottom: 1rem;
+}
+.imgg ins span{
+font-size: 1rem;
+}
+article{
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+article h2{
+    color: dimgrey;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+.dasresi{
+    line-height: 3.5rem;
+}
+.dasresi a {
+    color: black;
+    text-decoration: none;
+
+}
+.ertebat{
+line-height: 3.5rem;
+}
+
+footer .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.icon svg{
+    color: dimgrey;
+    padding: 1rem;
+
+}
+.icon p{
+color: black;
+text-decoration: none;
+}
+.icon a{
+    color: black;
+    font-weight: bold;
+ text-decoration: none;   
+}
+hr{
+    color: dimgrey;
+}
+.h{
+    width: 85%;
+    margin: 0 auto; 
+}
+.end{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5rem;
+}
+.end svg{
+    padding: 0.4rem;
 }
